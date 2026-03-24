@@ -1,6 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+    background:{
+      default:"#9f68b8"
+    },
+    text:{
+      primary:"#fff"
+    },
+    primary:{
+      main:"rgba(215,106,255,0.507)"
+    }
+  },
+});
 function App() {
   return (
     <div className="App">
