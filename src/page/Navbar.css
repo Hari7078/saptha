@@ -1,0 +1,28 @@
+
+.nav-nav_list_ditails {
+ 
+  display: flex;
+  gap: 25px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #27ae60;
+}
+
+
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
