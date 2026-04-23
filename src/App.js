@@ -9,8 +9,8 @@ import Navbar from './Page/Navbar/Navbar';
 
 function App() {
   return (
-   
-     <ThemeProvider theme={darkTheme} st>
+    
+     <ThemeProvider theme={darkTheme} >
 
       <Navbar/>
 
